@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>布卡漫画</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head-wrap">
+				<div class="head-center">
+					<a href="/" class="head-logo">
+						<img src="img/logo_3.png">
+					</a>
+				</div>
+				<div class="head-nav">
+					<div class="nav-lists">
+					<a href="/" class="nav-btn active">
+						首页
+					</a>
+					<a href="category.html" class="nav-btn  ">
+						分类
+					</a>
+					<a href="#" class="nav-btn  ">
+						用户中心
+					</a>
+					<a href="pay.html" class="nav-btn  ">
+						充值中心
+					</a>
+					<a href="#" class="nav-btn  ">
+						客服中心
+					</a>
+				</div>
+				<div class="nav-right">
+					<a href="" target="_blank" class="tougao">
+						<span class="icon">
+							
+						</span>
+						我要投稿
+					</a>
+					<div class="actionbtns">
+						<a href="javascript:;" class="btns" id="login" >登录</a>
+						<span class="fgx"></span>
+						<a href="javascript:;" class="btns btnslast" id="register" >注册</a>
+					</div>
+				</div>
+				<div class="search">
+					<a href="" class="search_btn"></a>
+					<input type="text"  class="search-input" placeholder="请输入漫画名/作者" >
+				</div>
+				
+				</div>
+			</div>
+		</div>
+		<div class="logins" id="logins">
+			<div class="login-cover">
+				
+			</div>
+			<div class="login-content">
+				<div class="login-title">
+					<span class="span_title">登录</span>
+					<a href="javascript:;" id="closeBoxShadow" class="modal-close-btn">X</a>
+				</div>
+				<div class="login-form">
+					<input type="text" class="user" name="username" placeholder="请输入用户名">
+					<input type="password" class="user" name="password" placeholder="请输入密码">
+					<input type="text"  class="form-vcode"  placeholder="验证码">
+					<img src="img/loginvcode.png" class="vcode-img"/>
+					<a href="" class="regbtn" >登 录</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="logins" id="registers">
+			<div class="login-cover">
+				
+			</div>
+			<div class="login-content" style="    height: 327px;">
+				<div class="login-title">
+					<span class="span_title">注册</span>
+					<a href="javascript:;" id="closeBoxShadow1" class="modal-close-btn">X</a>
+				</div>
+				<div class="login-form">
+					<input type="text" class="user" name="username" placeholder="请输入用户名">
+					<input type="password" class="user" name="password" placeholder="密码(6-16位)">
+					<input type="password" class="user" name="password" placeholder="确认密码">
+					<input type="text"  class="form-vcode"  placeholder="验证码">
+					<img src="img/loginvcode.png" class="vcode-img"/>
+					<a href="" class="regbtn" >登 录</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="main">
+			<div class="left" id="left">
+				<div class="imgturn boxshadow"  id="imgturn">
+					<ul  class="img">
+						<li>
+							<a href="detail.html">
+								<img src="img/20161021170214_5809d995e3611.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/20161021170458_5809da3aaa0da.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/20161021170427_5809da1b6a13f.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/20161021170214_5809d995e3611.jpg"/>
+							</a>
+						</li>
+					</ul>
+					<ul class="num">
+                
+            	</ul>
+            <div class="btn btn_l">&lt;</div>
+            <div class="btn btn_r">&gt;</div>
+					
+					
+					
+				</div>
+				<div class="mange-b boxshadow" id="mange-b">
+					<div class="mange-title">
+						<span class="title-font  new-img">
+							收费漫画
+						</span>
+					</div>
+					<div class="mange-box" id="mange-box">
+						<div class="mange-boxp" id="mange-boxp">
+							<a href=""  class="maga-imga">
+								
+							<img src="img/43m.jpg" class="maga-img" alt="发带、便当、她和她"/>
+							<img src="img/paychapter_icon.png" class="m-icon"/>
+						</a>
+						<div class="maga-names">
+							<a href="" class="maga-name">发带、便当、她和她	</a>
+							<p class="maga-desc">
+								<a href="" class="maga-author" id="maga-author">便当君	</a>
+								<a href="" class="maga-update" id="maga-update">最后更新:第1话</a>
+							</p>
+							
+						</div>
+						
+						</div>
+					</div>
+				</div>
+				
+					<div class="mange-b boxshadow" id="mange-b">
+					<div class="mange-title">
+						<span class="title-font  new-img">
+							百合姬
+						</span>
+					</div>
+					<div class="mange-box" id="mange-box1">
+						<div class="mange-boxp" id="mange-boxp1">
+							<a href=""  class="maga-imga">
+								
+							<img src="img/43m (6).jpg" class="maga-img1" alt="发带、便当、她和她"/>
+							<span class="img-cover">
+								
+							</span>
+							<span class="to-read">
+								进入阅读&gt;&gt;
+							</span>
+						</a>
+						<div class="maga-names">
+							<a href="" class="maga-name">Citrus</a>
+							<p class="maga-desc">
+								<a href="" class="maga-author" id="maga-author">なもり/一迅社	</a>
+								<a href="" class="maga-update" id="maga-update">最后更新:第26话</a>
+							</p>
+							
+						</div>
+						
+						</div>
+					</div>
+				</div>
+				<div class="mange-b boxshadow" id="mange-b2">
+					<div class="mange-title">
+						<span class="title-font  new-img">
+							最近更新
+						</span>
+					</div>
+					<div class="mange-box" id="mange-box2">
+						<div class="mange-boxp" id="mange-boxp2">
+							<a href=""  class="maga-imga">
+								
+							<img src="img/43m (18).jpg" class="maga-img1" alt="发带、便当、她和她"/>
+							<span class="img-cover">
+								
+							</span>
+							
+						</a>
+						<div class="maga-names">
+							<a href="" class="maga-name">神祇留学记</a>
+							<p class="maga-desc">
+								<a href="" class="maga-author" id="maga-author">小金X我弃疗	</a>
+								<a href="" class="maga-update" id="maga-update">最后更新:第34话</a>
+							</p>
+							
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="download  boxshadow" style="background: #fff;">
+					<div class="download-title">
+					客户端下载
+				</div>
+					<div class="download-list">
+						<div class="do-list">
+							
+						
+						<ul  class="d-list iphone-d-list">
+							<li class="d-li"><span >
+								iPhone
+							</span>
+							</li>
+							<li class="d-li">
+								<span >
+									iPad
+								</span></li>
+						</ul>
+						</div>
+						<div class="d-desc" >
+						<img src="img/ipa.png" style="    width: 95px;
+    							height: 95px;"/>
+								<p style="    margin-top: 17px;
+    color: #999;    color: #999;">扫下二维码下载客户端看更加方便</p>
+						</div>
+					</div>
+					<div class="download-list">
+						<div class="do-list">
+							
+						
+						<ul  class="d-list android-d-list">
+							<li class="d-li"><span >
+								Android
+							</span>
+							</li>
+							<li class="d-li">
+								<span >
+									Android HD
+								</span></li>
+						</ul>
+						</div>
+						<div class="d-desc" >
+						<img src="img/ipa.png" style="    width: 95px;
+    							height: 95px;"/>
+								<p style="    margin-top: 17px;
+    color: #999;    color: #999;">扫下二维码下载客户端看更加方便</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="manga-list boxshadow">
+					<div class="manga-list-title">
+					<p class="list-title">今日热榜</p>
+				</div>
+				<div class="manga-list-names">
+					<ul>
+												<li>
+							<span class="list-nums hot ">01</span>
+							<a href="" target="_blank">微微一笑很倾城</a>
+							<span class="list-number">9.5</span>
+						</li>
+												<li>
+							<span class="list-nums hot ">02</span>
+							<a href="" target="_blank">英雄？我早就不当了</a>
+							<span class="list-number">9.3</span>
+						</li>
+												<li>
+							<span class="list-nums hot ">03</span>
+							<a href="" target="_blank">帝少别太猛</a>
+							<span class="list-number">9.2</span>
+						</li>
+												<li>
+							<span class="list-nums  ">04</span>
+							<a href="" target="_blank">大唐除妖司</a>
+							<span class="list-number">9.6</span>
+						</li>
+												<li>
+							<span class="list-nums  ">05</span>
+							<a href="" target="_blank">王爷你好贱</a>
+							<span class="list-number">9.1</span>
+						</li>
+												<li>
+							<span class="list-nums  ">06</span>
+							<a href="" target="_blank">妖神记</a>
+							<span class="list-number">9.6</span>
+						</li>
+												<li>
+							<span class="list-nums  ">07</span>
+							<a href="" target="_blank">斗罗大陆Ⅱ绝世唐门</a>
+							<span class="list-number">8.8</span>
+						</li>
+												<li>
+							<span class="list-nums  ">08</span>
+							<a href="" target="_blank">小林家的龙女仆</a>
+							<span class="list-number">9.8</span>
+						</li>
+												<li>
+							<span class="list-nums  ">09</span>
+							<a href="" target="_blank">梦三国</a>
+							<span class="list-number">9.2</span>
+						</li>
+												<li>
+							<span class="list-nums  ">10</span>
+							<a href="" target="_blank">我家大师兄脑子有坑</a>
+							<span class="list-number">9.8</span>
+						</li>
+											</ul>
+				</div>
+				</div>
+			
+			<div class="right-subject boxshadow" id="right-subject">
+				<div class="subject-title">
+					游戏中心
+				</div>
+				<div class="subject-box" id="subject-box">
+						<a href="" target="_blank" class="img-link">
+							<img src="img/20170111150925_5875d999b41c9.jpg" class="subject-img">
+							
+							<p class="box-foot">崩坏学园2</p>
+							
+						</a>
+				</div>
+			
+			
+			</div>
+		</div>
+		</div>
+		
+		<div class="friendly-link boxshadow">
+			<p class="title">
+				<span class="bordercolor">	
+				</span>
+				友情链接</p>
+				<div class="link-box" style="    padding: 10px 20px;">
+					<a class="partner-link" href="" target="_blank">
+				买买菌
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				半糖
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				轻文轻小说
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				第一弹
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				番薯小报
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				M站
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				翔通动漫
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				咸鱼漫讯
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				i尚漫
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				梦幻理想乡
+			</a>
+			<a class="partner-link" href="" target="_blank">
+				SF轻小说
+			</a>
+
+		
+				</div>
+		</div>
+		<div class="footer">
+			<div class="footer-content">
+				<ul class="content-font">
+					
+						<li>
+				<span class="icon addr"></span>
+				<div class="content-list">
+					<p style="text-align: left;">珠海布卡科技有限公司</p>
+					<p>
+						地址：珠海市香洲区夏美路161号
+					</p>
+					<p>
+						(南厦丰泽园)2栋二层商铺234C
+					</p>
+				</div>
+					</li>
+				
+				
+					
+						<li>
+				<span class="icon-email"></span>
+				<div class="content-list">
+					<p style="text-align: left;">客服:services@buka.cn</p>
+					<p style="text-align: left;">
+						投稿:td.sosobook.cn
+					</p>
+					<p style="text-align: left;">
+						合作:bd@buka.cn
+					</p>
+				</div>
+					</li>
+				
+				
+					
+						<li>
+				<span class="icon-tel"></span>
+				<div class="content-list">
+					<p style="text-align: left;">电话:</p>
+					<p style="text-align: left;">
+						0756-3360306
+					</p>
+				</div>
+					</li>
+					
+					<li>
+				<span class="icon-global"></span>
+				<div class="content-list">
+					<p style="text-align: left;">ICP备案号:
+						<a href="" style="    color: #999;">粤ICP备15028491号-1</a>
+					</p>
+					<p style="text-align: left;">
+						<span class="icon-wen"></span>
+						网络文化经营许可证:
+						<a href="">粤网文[2015]2094-438号</a>
+					</p>
+				</div>
+					</li>
+					
+					
+				</ul>
+				<div class="bkn">
+			<span class="jxw"></span>
+			<div class="qipao" style="height:auto;">
+				<span class="arrow"></span>
+				<p>沉迷娱乐伤身</p>
+				<p>合理安排时间</p>
+				<p>享受健康生活</p>
+				<p>适龄17岁以上</p>		
+			</div>
+		</div>
+			</div>
+		</div>
+	</body>
+</html>

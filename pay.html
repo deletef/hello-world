@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>布卡漫画   冲值</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		<script src="js/pay.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head-wrap">
+				<div class="head-center">
+					<a href="/" class="head-logo">
+						<img src="img/logo_3.png">
+					</a>
+				</div>
+				<div class="head-nav">
+					<div class="nav-lists">
+					<a href="#" class="nav-btn ">
+						首页
+					</a>
+					<a href="category.html" class="nav-btn  ">
+						分类
+					</a>
+					<a href="" class="nav-btn  ">
+						用户中心
+					</a>
+					<a href="pay.html" class="nav-btn active ">
+						充值中心
+					</a>
+					<a href="" class="nav-btn  ">
+						客服中心
+					</a>
+				</div>
+				<div class="nav-right">
+					<a href="" target="_blank" class="tougao">
+						<span class="icon">
+							
+						</span>
+						我要投稿
+					</a>
+					<div class="actionbtns">
+						<a href="javascript:;" class="btns" id="login" >登录</a>
+						<span class="fgx"></span>
+						<a href="javascript:;" class="btns btnslast" id="register" >注册</a>
+					</div>
+				</div>
+				<div class="search">
+					<a href="" class="search_btn"></a>
+					<input type="text"  class="search-input" placeholder="请输入漫画名/作者" >
+				</div>
+				
+				</div>
+			</div>
+		</div>
+		<div class="logins" id="logins">
+			<div class="login-cover">
+				
+			</div>
+			<div class="login-content">
+				<div class="login-title">
+					<span class="span_title">登录</span>
+					<a href="javascript:;" id="closeBoxShadow" class="modal-close-btn">X</a>
+				</div>
+				<div class="login-form">
+					<input type="text" class="user" name="username" placeholder="请输入用户名">
+					<input type="password" class="user" name="password" placeholder="请输入密码">
+					<input type="text"  class="form-vcode"  placeholder="验证码">
+					<img src="img/loginvcode.png" class="vcode-img"/>
+					<a href="" class="regbtn" >登 录</a>
+				</div>
+			</div>
+		</div>
+		
+			<div class="logins" id="registers">
+			<div class="login-cover">
+				
+			</div>
+			<div class="login-content" style="    height: 327px;">
+				<div class="login-title">
+					<span class="span_title">注册</span>
+					<a href="javascript:;" id="closeBoxShadow1" class="modal-close-btn">X</a>
+				</div>
+				<div class="login-form">
+					<input type="text" class="user" name="username" placeholder="请输入用户名">
+					<input type="password" class="user" name="password" placeholder="密码(6-16位)">
+					<input type="password" class="user" name="password" placeholder="确认密码">
+					<input type="text"  class="form-vcode"  placeholder="验证码">
+					<img src="img/loginvcode.png" class="vcode-img"/>
+					<a href="" class="regbtn" >登 录</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main boxshadow">
+			<div class="left">
+				<div class="title">
+			<h2>充值布卡币</h2>
+		</div>
+		
+		<div class="center">
+			<div class="pay-form">
+				<div class="pay-box">
+					<div class="combo">
+						<div class="combo_txt">
+									<p>50布卡币</p>
+									<p>价格:5元</p>
+								</div>
+					</div>
+					<div class="combo">
+						<div class="combo_txt">
+									<p>100布卡币</p>
+									<p>价格:10元</p>
+								</div>
+					</div>
+					<div class="combo">
+						<div class="combo_txt">
+									<p>150布卡币</p>
+									<p>价格:15元</p>
+								</div>
+					</div>
+					<div class="combo">
+						<div class="combo_txt">
+									<p>200布卡币</p>
+									<p>价格:20元</p>
+								</div>
+					</div>
+					<div class="combo">
+						<div class="combo_txt">
+									<p>500布卡币</p>
+									<p>价格:50元</p>
+								</div>
+					</div>
+					<div class="combo">
+						<div class="combo_txt">
+									<p>1000布卡币</p>
+									<p>价格:100元</p>
+								</div>
+					</div>
+				</div>
+			<div class="paytype">
+				<div class="title">
+								支付方式:
+								<p class="smallfont">1元人民币 = 10布卡币</p>
+							</div>
+							<label for="alipay" class="paylabel">
+								<input type="radio" name="paytype" id="alipay" checked="" value="alipay">
+								<img src="img/alipay.gif" width="112" height="30">
+							</label>
+							<label for="gsyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg gsyh"></span>
+							</label>
+							<label for="zsyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg zsyh"></span>
+							</label>
+							<label for="jsyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg jsyh"></span>
+							</label>
+							<label for="zgyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg zgyh"></span>
+							</label>
+							<label for="jtyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg jtyh"></span>
+							</label>
+							<label for="xyyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg xyyh"></span>
+							</label>
+							<label for="yzyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg yzyh"></span>
+							</label>
+							<label for="gdyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg gdyh"></span>
+							</label>
+							<label for="zxyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg zxyh"></span>
+							</label>
+							<label for="msyh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg msyh"></span>
+							</label>
+							<label for="payh" class="paylabel">
+								<input type="radio" name="paytype" id="" checked="" value="alipay">
+								<span class="payimg payh"></span>
+							</label>
+							<div class="paynumer">
+								支付金额: <span id="paynumer">5</span>元
+							</div>
+							<a href="" id="pay" class="paybtn">支 付</a>
+			</div>
+			</div>
+		</div>
+			</div>
+		</div>
+		
+		
+			<div class="footer">
+			<div class="footer-content">
+				<ul class="content-font">
+					
+						<li>
+				<span class="icon addr"></span>
+				<div class="content-list">
+					<p style="text-align: left;">珠海布卡科技有限公司</p>
+					<p>
+						地址：珠海市香洲区夏美路161号
+					</p>
+					<p>
+						(南厦丰泽园)2栋二层商铺234C
+					</p>
+				</div>
+					</li>
+				
+				
+					
+						<li>
+				<span class="icon-email"></span>
+				<div class="content-list">
+					<p style="text-align: left;">客服:services@buka.cn</p>
+					<p style="text-align: left;">
+						投稿:td.sosobook.cn
+					</p>
+					<p style="text-align: left;">
+						合作:bd@buka.cn
+					</p>
+				</div>
+					</li>
+				
+				
+					
+						<li>
+				<span class="icon-tel"></span>
+				<div class="content-list">
+					<p style="text-align: left;">电话:</p>
+					<p style="text-align: left;">
+						0756-3360306
+					</p>
+				</div>
+					</li>
+					
+					<li>
+				<span class="icon-global"></span>
+				<div class="content-list">
+					<p style="text-align: left;">ICP备案号:
+						<a href="" style="    color: #999;">粤ICP备15028491号-1</a>
+					</p>
+					<p style="text-align: left;">
+						<span class="icon-wen"></span>
+						网络文化经营许可证:
+						<a href="">粤网文[2015]2094-438号</a>
+					</p>
+				</div>
+					</li>
+					
+					
+				</ul>
+				<div class="bkn">
+			<span class="jxw"></span>
+			<div class="qipao" style="height:auto;">
+				<span class="arrow"></span>
+				<p>沉迷娱乐伤身</p>
+				<p>合理安排时间</p>
+				<p>享受健康生活</p>
+				<p>适龄17岁以上</p>		
+			</div>
+		</div>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>
