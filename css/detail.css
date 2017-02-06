@@ -1,0 +1,264 @@
+.main
+{
+	width: 1150px;
+    margin: 0 auto 80px auto;
+}
+.left
+{
+	width: 246px;
+    margin-left: 5px;
+    float: left;
+}
+
+.author
+{
+	margin-bottom: 25px;
+    height: 105px;
+    background: #fff;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.author-names {
+    margin-top: 5px;
+    float: left;
+    color: #808080;
+    margin-left: 10px;
+}
+ .author-name {
+    color: #808080;
+    line-height: 30px;
+    display: block;
+}
+ .author-names span {
+    display: block;
+}
+.author-wrap {
+    margin-top: 19px;
+    margin-left: 13px;
+    height: 64px;
+}
+.author-img {
+    float: left;
+}
+.author-img img {
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+}
+.similiar
+{
+	width: 200px;
+    padding: 0 23px 40px 23px;
+    background: #fff;
+    margin-top: 20px;
+}
+.s-title
+{
+	padding: 14px 0px;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.similiar
+{
+	width: 200px;
+    padding: 0 23px 40px 23px;
+    background: #fff;
+    margin-top: 20px;
+}
+.s-title
+{
+	padding: 14px 0px;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.s-box
+{
+	width: 200px;
+    height: 126px;
+    padding: 18px 0 20px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+.s-img
+{
+	display: block;
+    width: 84px;
+    height: 126px;
+    float: left;
+}
+.s-desc {
+    margin-left: 15px;
+    float: left;
+    height: 126px;
+}
+.s-desc .new-icon {
+    display: block;
+    line-height: 18px;
+    height: 18px;
+    text-align: left;
+    font-size: 15px !important;
+    color: #333;
+}
+.s-names a {
+    color: #575757;
+    display: block;
+    margin-bottom: 10px;
+        margin-top: 19px;
+}
+
+.rate-num {
+    display: block;
+    height: 15px;
+    font-size: 20px;
+    margin-top: 12px;
+    color: #F7B52C;
+}
+
+ .rate-out {
+    display: block;
+    height: 13px;
+    width: 88px;
+    margin-top: 18px;
+    margin-left: -2px;
+    background: url(../img/icon.png) no-repeat 0 -214px;
+}
+
+.rate-inner {
+    display: block;
+    height: 13px;
+    background: url(../img/icon.png) no-repeat 0 -233px;
+}
+
+ .right {
+    width: 852px;
+    float: left;
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-left: 13px;
+    background: #fff;
+    padding: 20px 14px;
+}
+
+.manga-title {
+    height: 30px;
+}
+.manga-title .wrap {
+    float: left;
+    margin-top: 3px;
+}
+.btn-primary {
+    display: inline-block;
+    color: #fff;
+    background: #f8b62d;
+    height: 25px;
+    padding: 0 8px;
+    line-height: 25px;
+    border: 1px solid #FEEBCB;
+        float: right;
+}
+.manga-title .wrap .title-font {
+    font-size: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+    border-left: 3px solid #F7B52B;
+}
+.manga-grade .manga-grade_2 {
+    display: inline-block;
+    width: 90px;
+    height: 16px;
+    margin-top: 2px;
+    margin-top: 0px;
+    background: url(../img/icon.png) no-repeat 0px -232px;
+        position: relative;
+    left: 160px;
+    top: -19px;
+}
+
+.manga-title .wrap .manga-grade-num {
+    display: inline-block;
+    margin-left: 5px;
+    color: #F7B52D;
+    font-size: 14px;
+        position: relative;
+    left: 265px;
+    top: -40px;
+}
+
+.manga-desc {
+    margin-top: 25px;
+    color: #808080;
+}
+.manga-desc .manga-author {
+    margin-left: 5px;
+}
+.anthor {
+    color: #2DA6DB;
+    margin: 0 7px;
+}
+.time {
+    font-size: 13px;
+    margin-left: 5px;
+}
+.manga-desc-font {
+    text-indent: 4em;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.share-i1
+{
+	display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/newicon_20160225.png) no-repeat -2px -24px !important;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.share-i2
+{
+	display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/newicon_20160225.png) no-repeat -1px -59px !important;
+    margin-right: 5px;
+}
+.share-i3
+{
+	display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/newicon_20160225.png) no-repeat -125px -87px !important;
+}
+.manga-num
+{
+	margin-top: 50px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.num-box
+{
+    height: 520px;
+}
+.numli
+{
+	font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 135px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #808080;
+}
+
+.numli:hover
+{
+	color:#F4B440 ;
+}
+

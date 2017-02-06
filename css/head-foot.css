@@ -1,0 +1,376 @@
+.head {
+    height: 163px;
+    margin-bottom: 22px;
+}
+.head .head-wrap {
+    height: 123px;
+    background: #040000;
+}
+.head .head-wrap .head-center {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head-logo {
+    display: block;
+    width: 346px;
+    height: 41px;
+    margin: 33px 0;
+}
+.head-nav
+    {height: 54px;
+    width: 1140px;
+    margin: 0 auto;
+    background: #fff;}
+.nav-btn
+{
+	display: block;
+    height: 54px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height: 54px;
+}
+.nav-btn.active
+{
+	color: #fff;
+    background: #f8b62d;
+  
+}
+
+.nav-right
+{
+	float: right;
+    height: 54px;
+    line-height: 54px;
+}
+.tougao
+{
+	display: block;
+    width: 130px;
+    line-height: 54px;
+    background: #F4B440;
+    text-indent: 10px;
+    color: #fff;
+    margin-left: 15px;
+    float: right;
+}
+.tougao .icon {
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+    float: left;
+    background: url(../img/newicon_20160225.png) no-repeat -1px -231px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.actionbtns
+{
+	float: right;
+}
+.btns
+{
+	    color: #666;
+}
+.fgx {
+    margin: 0px 10px -2px 10px;
+    display: inline-block;
+    height: 15px;
+    border-left: 1px solid #999;
+}
+.actionbtns .btnslast {
+    padding-right: 15px;
+}
+
+ .search {
+    float: right;
+    height: 22px;
+    margin-top: 15px;
+    border-left: 1px solid #E5E5E5;
+    width: 230px;
+    margin-right: 5px;
+}
+.search_btn {
+    display: inline-block;
+    width: 16px;
+    height: 22px;
+    float: left;
+    margin-left: 15px;
+    margin-top: -1px;
+    background: url(../img/newicon_20160225.png) no-repeat -1px -146px;
+}
+
+.search-input {
+    display: inline-block;
+    float: left;
+    border: none;
+    font-size: 14px;
+    height: 22px;
+    width: 190px;
+    margin-left: 5px;
+    color: #999;
+    margin-top: -1px;
+}
+
+
+
+
+.login-cover
+{
+	/*visibility: hidden;*/
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2000;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.login-content
+{
+	position: fixed;
+    width: 400px;
+    margin: auto;
+    padding: 39px 0px;
+    background: #fff;
+    z-index: 2001;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 270px;
+}
+.login-title
+{
+	padding-bottom: 10px;
+}
+.span_title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-left: 3px solid #F8B62D;
+    text-indent: 10px;
+    font-size: 16px;
+    color: #666;
+}
+#closeBoxShadow {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+}
+#closeBoxShadow1 {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+}
+.login-form
+{
+    margin-top: 15px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.user
+{
+	
+    width: 95%;
+    height: 25px;
+    text-indent: 10px;
+    font-family: 微软雅黑;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    padding: 5px;
+    margin: 12px 0px;
+
+}
+.form-vcode
+{
+width: 40%;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 12px 0;
+    float: left;	
+}
+  .vcode-img
+    {
+    height: 37px;
+    width: 40%;
+    float: right;
+    display: block;
+    margin-left: 12px;
+    margin: 12px 0;
+    margin-bottom: 35px;
+    }
+
+	.regbtn {
+    display: block;
+    height: 40px;
+    background: #f8b62d;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.logins
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxshadow
+{
+	-webkit-box-shadow: 0px 1px 2px #d9d9d9;
+}
+
+.nav-btn:not(.active):hover {
+    background: #F2F2F2;
+}
+
+.footer {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clear: both;
+    color: #999;
+    margin-bottom: 20px;
+}    
+
+.footer-content
+{
+	height: 100px;
+    text-align: center;
+}
+
+.content-font {
+    padding-left: 0px;
+    float: left;
+}
+
+.content-font li {
+    float: left;
+    margin-right: 45px;
+}
+
+.content-font li .icon {
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+.content-font li .icon.addr {
+    width: 13px;
+    height: 19px;
+    background: url(../img/addr.png) no-repeat center center;
+}
+ .icon-email {
+    width: 16px;
+    height: 12px;
+    background: url(../img/email.png) no-repeat center center;
+        display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.content-list p {
+    padding: 5px 0;
+}
+.content-list
+{
+	float: left;
+}
+.icon-tel{
+    width: 12px;
+    height: 19px;
+    background: url(../img/phone.png) no-repeat center center;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+.icon-global {
+    width: 19px;
+    height: 19px;
+    background: url(../img/global.png) no-repeat center center;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.icon-wen
+{
+	    width: 30px;
+    height: 30px;
+    background: url(../img/wenwangwenicon.png) no-repeat center center;
+    background-size: contain;
+    float: left;
+    margin-right: 5px;
+   
+    margin-left: -35px;
+}
+.bkn {
+    
+    width: 165px;
+    position: absolute;
+        right: 153px;
+}
+.jxw {
+    display: inline-block;
+    width: 37px;
+    height: 69px;
+    float: left;
+    background: url(../img/bkn.png) no-repeat center center;
+}
+.qipao {
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    float: right;
+    line-height: 25px;
+    background: #4A4947;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position: relative;
+}
+.arrow {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 10px solid #4A4947;
+    top: 6px;
+    left: -15px;
+}
+
+.qipao p {
+    text-indent: 7px;
+}

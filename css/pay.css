@@ -1,0 +1,154 @@
+
+.main
+{
+	width: 1100px;
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.left {
+    float: left;
+    padding: 0px 10px 10px 20px;
+    width: 720px;
+    height: 470px;
+    margin-left: 20px;
+    border-left: 1px solid #f1f1f1;
+}
+ .title {
+    font-size: 17px;
+}
+
+.center
+{
+margin: 10px auto;
+    margin-top: 20px;
+    height: 250px;	
+}
+    
+.combo {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.combo_txt {
+    color: #999;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+}
+.combo_txt p {
+    width: 110px;
+    margin: 0px 15px;
+    text-indent: 12px;
+}
+.combo_txt p:first-child {
+    color: #F8B62D;
+    font-size: 15px;
+}
+
+.paytype {
+    clear: both;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.smallfont {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+.payimg {
+    display: inline-block;
+    width: 112px;
+    height: 30px;
+}
+ .gsyh {
+    background: url(../img/bankicon.png) no-repeat 0 -40px;
+}
+.zsyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -80px;
+}
+.jsyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -320px;
+}
+.zgyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -520px;
+}
+.jtyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -600px;
+}
+.xyyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -640px;
+}
+.yzyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -400px;
+}
+.gdyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -440px;
+}
+.zxyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -200px;
+}
+.msyh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -120px;
+}
+.payh
+ {
+    background: url(../img/bankicon.png) no-repeat 0 -1880px;
+}
+ .paylabel {
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+    display: block;
+}
+
+.paynumer {
+    font-size: 15px;
+    padding: 10px 0;
+    clear: both;
+}
+.paynumer span {
+    font-weight: 700;
+    padding: 0 5px;
+}
+.paybtn {
+    width: 80px;
+    height: 30px;
+    background: #F8B62D;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.author-img
+{
+	float: left;
+}
+.author-img img
+{
+	border-radius: 50%;
+    border: 1px solid #f1f1f1;
+}
+

@@ -1,0 +1,821 @@
+.head {
+    height: 163px;
+    margin-bottom: 22px;
+}
+.head .head-wrap {
+    height: 123px;
+    background: #040000;
+}
+.head .head-wrap .head-center {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head-logo {
+    display: block;
+    width: 346px;
+    height: 41px;
+    margin: 33px 0;
+}
+.head-nav
+    {height: 54px;
+    width: 1140px;
+    margin: 0 auto;
+    background: #fff;}
+.nav-btn
+{
+	display: block;
+    height: 54px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height: 54px;
+}
+.nav-btn.active
+{
+	color: #fff;
+    background: #f8b62d;
+  
+}
+
+.nav-right
+{
+	float: right;
+    height: 54px;
+    line-height: 54px;
+}
+.tougao
+{
+	display: block;
+    width: 130px;
+    line-height: 54px;
+    background: #F4B440;
+    text-indent: 10px;
+    color: #fff;
+    margin-left: 15px;
+    float: right;
+}
+.tougao .icon {
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+    float: left;
+    background: url(../img/newicon_20160225.png) no-repeat -1px -231px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.actionbtns
+{
+	float: right;
+}
+.btns
+{
+	    color: #666;
+}
+.fgx {
+    margin: 0px 10px -2px 10px;
+    display: inline-block;
+    height: 15px;
+    border-left: 1px solid #999;
+}
+.actionbtns .btnslast {
+    padding-right: 15px;
+}
+
+ .search {
+    float: right;
+    height: 22px;
+    margin-top: 15px;
+    border-left: 1px solid #E5E5E5;
+    width: 230px;
+    margin-right: 5px;
+}
+.search_btn {
+    display: inline-block;
+    width: 16px;
+    height: 22px;
+    float: left;
+    margin-left: 15px;
+    margin-top: -1px;
+    background: url(../img/newicon_20160225.png) no-repeat -1px -146px;
+}
+
+.search-input {
+    display: inline-block;
+    float: left;
+    border: none;
+    font-size: 14px;
+    height: 22px;
+    width: 190px;
+    margin-left: 5px;
+    color: #999;
+    margin-top: -1px;
+}
+
+
+
+
+.login-cover
+{
+	/*visibility: hidden;*/
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2000;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.login-content
+{
+	position: fixed;
+    width: 400px;
+    margin: auto;
+    padding: 39px 0px;
+    background: #fff;
+    z-index: 2001;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 270px;
+}
+.login-title
+{
+	padding-bottom: 10px;
+}
+.span_title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-left: 3px solid #F8B62D;
+    text-indent: 10px;
+    font-size: 16px;
+    color: #666;
+}
+#closeBoxShadow {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+}
+#closeBoxShadow1 {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+}
+.login-form
+{
+    margin-top: 15px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.user
+{
+	
+    width: 95%;
+    height: 25px;
+    text-indent: 10px;
+    font-family: 微软雅黑;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    padding: 5px;
+    margin: 12px 0px;
+
+}
+.form-vcode
+{
+width: 40%;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 12px 0;
+    float: left;	
+}
+  .vcode-img
+    {
+    height: 37px;
+    width: 40%;
+    float: right;
+    display: block;
+    margin-left: 12px;
+    margin: 12px 0;
+    margin-bottom: 35px;
+    }
+
+	.regbtn {
+    display: block;
+    height: 40px;
+    background: #f8b62d;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.logins
+{
+	display: none;
+}
+.main {
+    width: 1150px;
+    margin: 0 auto;
+    height: auto;
+}  
+.main .left {
+    width: 880px;
+    float: left;
+    margin-left: 5px;
+   
+}
+.main .left .imgtrun {
+    margin-bottom: 22px;
+    width: 880px;
+    height: 200px;
+    position: relative;
+    border: 1px dashed;
+}  
+
+.mange-b
+{
+	    background: #fff;
+	    margin-top: 10px;
+}
+
+.mange-title
+{
+	    height: 65px;
+    font-size: 12px;
+}
+ .title-font
+{
+	
+    display: inline-block;
+    float: left;
+    height: 28px;
+    padding-left: 30px;
+    line-height: 28px;
+    text-indent: 5px;
+    font-size: 16px;
+}
+.new-img
+{
+	background: url(../img/newicon_20160225.png) no-repeat -121px -231px;
+	
+	margin-top: 23px;
+    margin-left: 20px;
+}
+.mange-box
+{
+	
+	
+    
+      background: #fff;
+    overflow: hidden;
+    margin-bottom: 22px;
+   
+   
+}
+
+.mange-boxp
+{
+	    position: relative;
+    float: left;
+    margin: 17px;
+    width: 112.5px;
+    background: #fff;
+    overflow: hidden;
+}
+.maga-imga
+{
+	width: 117px;
+    height: 175px;
+    overflow: hidden;
+}
+
+
+.maga-img
+{
+	display: inline-block;
+    width: 117px;
+    height: 175px;
+    transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+.maga-imga:hover .maga-img
+{
+	transform: scale(1.3);
+	
+}
+
+.m-icon
+{
+	position: relative;
+	top: -29px;
+}
+.maga-names
+{
+	    height: 115px;
+}
+.maga-name
+{
+	display: block;
+    word-break: break-all;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.maga-name:hover
+{
+	    color: #f8b62d;
+}
+.maga-desc
+{
+	font-size: 12px;
+	margin-top: 0px;
+}
+.maga-author
+{
+	color: #7F7F7F;
+    display: block;
+    margin-bottom: 15px;
+}
+.maga-update
+{
+	    color: #7F7F7F;
+    display: block;
+}
+
+.maga-img1
+{
+	display: inline-block;
+    width: 117px;
+    height: 175px;
+   
+}
+.img-cover
+{
+	    position: absolute;
+     display: none;
+    width: 117px;
+    height: 175px;
+    background-color: black;
+    opacity: 0.4;
+    top: 0px;
+}
+.to-read
+{
+	position: absolute;
+    width: 80px;
+    line-height: 28px;
+    color: white;
+    left: -80px;
+    top: 79px;
+    background: #1acc93;
+    transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+.maga-imga:hover .to-read
+{
+	transform: translateX(80px);
+	
+}
+
+.maga-imga:hover .img-cover
+{
+	display: block;
+	
+}
+
+.right
+{
+	width: 240px;
+    float: left;
+    margin-left: 20px;
+}
+.manga-list
+{
+	margin-top: 22px;
+    margin-bottom: 25px;
+    background: #fff;
+}
+.manga-list-title
+{
+	height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    padding: 0 25px 0 20px;
+}
+.list-title
+{
+	height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #B5B5B6;
+    margin-bottom: 10px;
+}
+.manga-list-names
+{
+	    padding: 10px 0 10px 20px;
+}
+
+    
+.manga-list-names li
+{
+	height: 25px;
+    line-height: 15px;
+    margin-bottom: 15px;
+        list-style: none;
+        
+    transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+       
+}
+.manga-list-names li .list-nums.hot {
+    background: #f8b62d;
+}
+.manga-list-names li .list-nums {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 23px;
+    height: 15px;
+    text-align: center;
+    color: #fff;
+    background: #ccc;
+    float: left;
+}
+
+.manga-list-names li a {
+    font-size: 13px;
+    margin-left: 10px;
+    float: left;
+    color: #333;
+}
+
+.manga-list-names li .list-number {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #999;
+    float: right;
+    display: inline-block;
+    width: 35px;
+    font-size: 12px;
+}
+
+.manga-list-names li:hover
+{
+	
+	 transform: translateX(10px);
+}
+.right-subject {
+    padding: 14px 0;
+    height: auto;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.subject-title {
+    font-size: 16px;
+    text-indent: 14px;
+    margin-bottom: 14px;
+}
+.subject-box {
+    width: 240px;
+    height: 151px;
+    position: relative;
+}
+.subject-box .box-foot {
+    height: 42px;
+    text-align: left;
+    color: #777;
+    line-height: 35px;
+    text-indent: 14px;
+}
+.boxshadow
+{
+	-webkit-box-shadow: 0px 1px 2px #d9d9d9;
+}
+
+.subject-img
+{
+	width:240px; 
+	height:109px;
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+.img-link
+{
+	width:240px; 
+	
+	overflow: hidden;
+	}
+
+.img-link:hover  .subject-img
+{
+	transform: scaleX(1.3);
+}
+
+.img-link:hover .box-foot
+{
+	color:#f8b62d ;
+}
+.download-title
+{
+	width: 195px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #B5B5B6;
+}
+.d-list
+{
+	overflow: hidden;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.iphone-d-list:before {
+    content: '';
+    display: block;
+    margin-top: 5px;
+    float: left;
+    width: 22px;
+    height: 27px;
+    margin-right: 5px;
+    background: url(../img/newicon_20160225.png) no-repeat -124px -180px;
+}
+
+.android-d-list:before {
+   content: '';
+    display: block;
+    float: left;
+    width: 23px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 27px;
+    background: url(../img/newicon_20160225.png) no-repeat -2px -180px;
+}
+.d-list li
+{
+	color: #7E7E7F;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: default;
+    width: 98px;
+        display: inline-block;
+}
+.d-desc
+{
+	text-align: center;
+	display: none;
+}
+.d-li:hover span
+{
+	color: #f8b62d;
+	border-bottom: 2px solid #f8b62d;
+}
+.download-list:hover .d-desc
+{
+	display: block;
+}
+ .nav-btn:not(.active):hover {
+    background: #F2F2F2;
+}
+
+.friendly-link
+{
+	    clear: both;
+    margin-left: 5px;
+    margin-top: 10000px;
+    height: 98px;
+    width: 1150px;
+    margin: 0 auto;
+    width: 1140px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.friendly-link .title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 15px 20px 0px 20px;
+}
+.friendly-link .title .bordercolor {
+    display: inline-block;
+    width: 3px;
+    height: 15px;
+    margin-right: 10px;
+    background: #f8b62d;
+}
+
+.link-box .partner-link {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.link-box .partner-link:hover
+{
+	background: #F4B440;
+    color: #fff;
+    transition: 0.3s;
+}
+.footer {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clear: both;
+    color: #999;
+    margin-bottom: 20px;
+}    
+
+.footer-content
+{
+	height: 100px;
+    text-align: center;
+}
+
+.content-font {
+    padding-left: 0px;
+    float: left;
+}
+
+.content-font li {
+    float: left;
+    margin-right: 45px;
+}
+
+.content-font li .icon {
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+.content-font li .icon.addr {
+    width: 13px;
+    height: 19px;
+    background: url(../img/addr.png) no-repeat center center;
+}
+ .icon-email {
+    width: 16px;
+    height: 12px;
+    background: url(../img/email.png) no-repeat center center;
+        display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.content-list p {
+    padding: 5px 0;
+}
+.content-list
+{
+	float: left;
+}
+.icon-tel{
+    width: 12px;
+    height: 19px;
+    background: url(../img/phone.png) no-repeat center center;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+
+.icon-global {
+    width: 19px;
+    height: 19px;
+    background: url(../img/global.png) no-repeat center center;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.icon-wen
+{
+	    width: 30px;
+    height: 30px;
+    background: url(../img/wenwangwenicon.png) no-repeat center center;
+    background-size: contain;
+    float: left;
+    margin-right: 5px;
+   
+    margin-left: -35px;
+}
+.bkn {
+    
+    width: 165px;
+    position: absolute;
+        right: 153px;
+}
+.jxw {
+    display: inline-block;
+    width: 37px;
+    height: 69px;
+    float: left;
+    background: url(../img/bkn.png) no-repeat center center;
+}
+.qipao {
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    float: right;
+    line-height: 25px;
+    background: #4A4947;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position: relative;
+}
+.arrow {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 10px solid #4A4947;
+    top: 6px;
+    left: -15px;
+}
+
+.qipao p {
+    text-indent: 7px;
+}
+
+.imgturn
+{
+	width: 880px;
+	height: 200px;
+	margin-bottom: 30px;
+	
+	border:1px solid #808080;
+	 position:relative; 
+	 overflow:hidden;
+}
+ .imgturn .img
+ {width:5000px;
+  position:absolute;
+   left:0px;
+   top:0px;
+   list-style:none;}
+  .imgturn .img img
+  {width:880px; 
+  height:200px;} 
+   .imgturn .img li
+   {float:left;}
+   
+  .imgturn .num 
+  { position:absolute;
+   width:100%;
+   bottom:10px;
+    left:0px; 
+    text-align:center; 
+    font-size:0px;} 
+   .imgturn .num li 
+   { 
+   	width:10px;
+   	 height:10px; 
+   	 background-color:#888;
+   	  border-radius:50%;
+   display:inline-block;
+    margin:0px 3px; 
+    cursor:pointer;}
+   .imgturn .num li.on 
+   {
+   	background-color: #ff6a00;
+   } 
+   .imgturn .btn {width: 30px;
+   height: 50px;
+   background-color: #808080;
+   opacity: 0.5; 
+   filter:alpha(opacity:0.5);
+    position:absolute;top:50%;
+     margin-top:-25px;
+                    cursor:pointer;
+                    text-align:center;
+                    line-height:50px;
+                    font-size:40px;
+                    color:#fff;
+                    font-family:"宋体";
+                    display:none;
+                }
+    .imgturn .btn_l { left:0px;}
+    .imgturn .btn_r { right:0px;}
+    .imgturn:hover .btn { display:block;} 
